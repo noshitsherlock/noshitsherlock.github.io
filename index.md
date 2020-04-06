@@ -3,7 +3,7 @@
 1. Download tretton37 quake 3.zip from this link => [ioquake3](https://drive.google.com/open?id=1SRy_TndkLsdmUEibOPStCL-54rCKpDLc) and unzip it
 2. Mount **ioquake3 1.36.dmg** and drag **ioquake3** folder to applications
 3. Drag **pak0.pk3** into the **baseq3** folder of the ioquake3 folder you just added to applications. The other pak files are already there
-4. Drag ioquake3.app into the root folder of **ioquake3**
+4. Drag **ioquake3.app** (pre-compiled binary for mac os x catalina) into the root folder of **ioquake3**
 
 Should look like this.
 ```
@@ -30,8 +30,9 @@ Write the following and press enter on each command, this is just my example res
 /vid_restart
 ````
 
-You can also use `/r_fullscreen 0` followed by `/vid_restart` to disable fullscreen (1 to enable).
+You can also use `/r_fullscreen 0` disable fullscreen (1 to enable).
 
-Then you are good to go! :D
+## 3
+Then you are good to go! :D Right click and open the application (it will warn from unsafe publisher), click cancel and right click and open again then you have the option "open" in the dialog that appears.
 
 There are a bunch of more stuff here that can be interesting to read, [Wiki for ioquake3](http://web.archive.org/web/20180926205015/http://wiki.ioquake3.org/Players_guide#I_can.E2.80.99t_bring_down_the_console_with_the_.60_or_the_.7E.21).
