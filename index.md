@@ -3,7 +3,8 @@
 1. Download tretton37 quake 3.zip from this link => [ioquake3](https://drive.google.com/open?id=1SRy_TndkLsdmUEibOPStCL-54rCKpDLc) and unzip it
 2. Mount **ioquake3 1.36.dmg** and drag **ioquake3** folder to applications
 3. Drag **pak0.pk3** into the **baseq3** folder of the ioquake3 folder you just added to applications. The other pak files are already there
-4. Drag **ioquake3.app** (pre-compiled binary for mac os x catalina) into the root folder of **ioquake3**
+4. Drag the **osp** folder to the **ioquake3** folder. 
+5. Drag **ioquake3.app** (pre-compiled binary for mac os x catalina) into the root folder of **ioquake3**
 
 Should look like this.
 ```
@@ -11,6 +12,7 @@ Should look like this.
 │   ├── baseq3
 │   │   ├── pak0.pk3
 │   ├── missionpack
+│   ├── osp
 │   ├── ioquake3-1.36.app (don't run)
 │   ├── ioquake3.app (this is the one! Yay!)
 │   ├── ioquake3fe-1.36.app (don't run)
